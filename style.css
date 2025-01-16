@@ -1,0 +1,316 @@
+style
+
+/* Global styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    }
+    
+    
+    a {
+    color: grey;
+    text-decoration: none;
+    }
+    
+
+    /* Header styles */
+
+header {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    padding: 10px 0;
+    text-align:center
+  }
+  
+  /* Logo styles */
+  .logo {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  /* Navigation styles */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding: 2px 9px;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #595f64;
+  }
+
+  
+
+      video {
+    width: 70%;
+    padding-left: 150px;
+    }
+    
+    
+
+/* Search form styles */
+.search-form {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    display: inline-block;
+  }
+  
+  .search-form input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    flex-grow: 1;
+    width: 150px;
+  }
+  
+  .search-form button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .search-form button:hover {
+    background-color: #000000ab;
+  }
+
+  input:focus {
+  outline: none;
+}
+    
+    /* Services styles */
+    .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:
+    50px 0;
+    }
+    
+    .services article {
+    background-color: #fff;
+    box-shadow: 2px 2px 5px #ccc;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    }
+    
+    .services article h3 {
+    font-size: 24px;
+    margin-top: 0;
+    }
+    
+    .services article p {
+    margin-bottom: 0;
+    }
+    
+    /* About styles */
+    .about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 960px;
+    padding: 0 20px;
+    }
+    
+    .about img {
+    border-radius: 50%;
+    height: 200px;
+    margin: auto;
+    }
+    
+    .about p {
+    margin-top: 20px;
+    text-align: justify;
+    }
+    
+    /* Contact styles */
+    form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 960px;
+    padding: 0 20px;
+    }
+    
+    form input[type="text"], form input[type="email"], form textarea {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+    padding: 10px;
+    width: 100%;
+    }
+    
+    form input[type="submit"] {
+    background-color: #0077c0;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 20px;
+    }
+    
+    form input[type="submit"]:hover {
+    background-color: #ffd700;
+    }
+    
+    .contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 960px;
+    padding: 0 20px;
+    }
+    img {
+    height: 150px;
+    width: 300px;
+    padding-left: 0;
+    }
+    
+    .budget img[src="plane.jpg"] {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .budget img[src="airbnb.jpg"] {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .contact h4 {
+    margin-top: 0;
+    }
+    
+    .contact p {
+    margin-bottom: 0;
+    }
+
+    /* Styles for the list */
+  #budget ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  #budget ul li {
+    margin-bottom: 10px;
+  }
+
+  #budget ul li:before {
+    content: "\2022"; /* Bullet point */
+    color: #303234; 
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+
+  /* Styles for the note */
+  #budget p {
+    margin-top: 20px;
+    font-style: italic;
+    color: #555;
+  }
+    
+    .social-media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    }
+    
+    .social-media a {
+    color: #0077c0;
+    font-size: 24px;
+    margin: 0 10px;
+    }
+    
+    .social-media a:hover {
+    color: blue;
+    }
+
+    footer {
+        background-color: #d4d4d4;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center; 
+      }
+
+
+
+      * {
+        box-sizing: border-box;
+      }
+      
+      .calendar-container {
+        max-width: 600px;
+        margin: 20px auto;
+        font-family: Arial, sans-serif;
+      }
+      
+      .calendar-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+      
+      #calendar {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 5px;
+      }
+      
+      .calendar-day {
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #ccc;
+      }
+      
+      .calendar-day:hover {
+        background-color: #f0f0f0;
+      }
+      
+      .current-month {
+        color: black;
+      }
+      
+      .other-month {
+        color: #ccc;
+      }
+      
+      .selected-day {
+        background-color: #acc7e3;
+        color: black;
+        text-emphasis: bold;
+      }
